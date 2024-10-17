@@ -40,8 +40,11 @@ While 1
         Case $path_btn
             CallLocationFunction()
 
-				Case $copy_btn
-					  CallCopyFunction()
+        Case $copy_btn
+                CallCopyFunction()
+
+        Case $clear_btn
+            ClearForm()
 
     EndSwitch
 WEnd
@@ -138,4 +141,15 @@ Func CallCopyFunction()
 
     ; Notify the user that the files were copied successfully
     MsgBox(64, "Success", "Files copied successfully to " & $dest_folder)
+EndFunc
+
+Func ClearForm()
+    ; Clear the ListBox
+    GUICtrlSetData($List1, "")
+
+    ; Clear the Last Name textbox
+    GUICtrlSetData($lastname_input, "")
+
+    ; Clear the First Name textbox
+    GUICtrlSetData($firstname_input, "")
 EndFunc

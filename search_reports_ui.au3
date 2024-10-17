@@ -5,8 +5,9 @@
 #include <StaticConstants.au3>
 #include <WindowsConstants.au3>
 Opt("GUIResizeMode", $GUI_DOCKBOTTOM)
+Opt("GUIResizeMode", $GUI_DOCKBOTTOM)
 #Region ### START Koda GUI section ### Form=C:\Users\lunde\repos\NSH\find_files\Searchpt.kxf
-$Form1 = GUICreate("Search For a Report", 556, 657, -1, -1, BitOR($GUI_SS_DEFAULT_GUI,$WS_SIZEBOX,$WS_THICKFRAME))
+$Form1 = GUICreate("Search For a Report", 556, 659, -1, -1, BitOR($GUI_SS_DEFAULT_GUI,$WS_SIZEBOX,$WS_THICKFRAME))
 GUISetIcon("C:\Windows\System32\shell32.dll", -23)
 $path_group = GUICtrlCreateGroup("Type a search path below or use the location button", 8, 8, 538, 97)
 GUICtrlSetFont(-1, 10, 400, 0, "Lucida Fax")
@@ -39,10 +40,12 @@ GUICtrlSetResizing(-1, $GUI_DOCKLEFT+$GUI_DOCKRIGHT+$GUI_DOCKTOP+$GUI_DOCKBOTTOM
 $results_lbl = GUICtrlCreateLabel("Search results will appear below", 8, 300, 210, 20)
 GUICtrlSetFont(-1, 10, 400, 0, "Lucida Fax")
 GUICtrlSetResizing(-1, $GUI_DOCKLEFT+$GUI_DOCKTOP+$GUI_DOCKWIDTH+$GUI_DOCKHEIGHT)
-$copy_btn = GUICtrlCreateButton("Copy", 448, 624, 75, 25)
+$copy_btn = GUICtrlCreateButton("Copy", 384, 625, 75, 25)
 GUICtrlSetResizing(-1, $GUI_DOCKRIGHT+$GUI_DOCKBOTTOM+$GUI_DOCKWIDTH+$GUI_DOCKHEIGHT)
-$copy_lbl = GUICtrlCreateLabel("Copy the files to a new location", 240, 628, 207, 20)
+$copy_lbl = GUICtrlCreateLabel("Copy the files to a new location", 176, 628, 207, 20)
 GUICtrlSetFont(-1, 10, 400, 0, "Lucida Fax")
+GUICtrlSetResizing(-1, $GUI_DOCKRIGHT+$GUI_DOCKBOTTOM+$GUI_DOCKWIDTH+$GUI_DOCKHEIGHT)
+$clear_btn = GUICtrlCreateButton("Clear", 469, 625, 75, 25)
 GUICtrlSetResizing(-1, $GUI_DOCKRIGHT+$GUI_DOCKBOTTOM+$GUI_DOCKWIDTH+$GUI_DOCKHEIGHT)
 GUISetState(@SW_SHOW)
 #EndRegion ### END Koda GUI section ###
