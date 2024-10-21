@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="windows-1251"?>
 <object type="TAForm" name="Form1">
 	<properties>
-		<property name="Left" vt="Int16">506</property>
-		<property name="Top" vt="Int8">125</property>
+		<property name="Left" vt="Int16">246</property>
+		<property name="Top" vt="Int8">126</property>
 		<property name="Width" vt="Int16">571</property>
-		<property name="Height" vt="Int16">697</property>
+		<property name="Height" vt="Int16">715</property>
 		<property name="Caption" vt="String">Search For a Report</property>
-		<property name="Color" vt="Ident">clBtnFace</property>
+		<property name="Color" vt="Ident">clBtnHighlight</property>
 		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
 		<property name="Font.Color" vt="Ident">clWindowText</property>
 		<property name="Font.Height" vt="Int8">-11</property>
-		<property name="Font.Name" vt="String">MS Sans Serif</property>
+		<property name="Font.Name" vt="String">Candara</property>
 		<property name="Font.Style" vt="Set"/>
 		<property name="Icon.Data" vt="Binary">
 			<bin>0000010008000000000001002000114B00008600000010100000010020006804</bin>
@@ -1983,16 +1983,16 @@
 		<object type="TAGroup" name="search_group">
 			<properties>
 				<property name="Left" vt="Int8">6</property>
-				<property name="Top" vt="Int8">110</property>
+				<property name="Top" vt="Int8">118</property>
 				<property name="Width" vt="Int16">537</property>
-				<property name="Height" vt="Int16">177</property>
+				<property name="Height" vt="Int16">185</property>
 				<property name="CtrlStyle" vt="Int32">1409449991</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
 				<property name="Caption" vt="String">Type the patient's first and last name below in lowercase</property>
 				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
 				<property name="Font.Color" vt="Ident">clWindowText</property>
-				<property name="Font.Height" vt="Int8">-13</property>
-				<property name="Font.Name" vt="String">Lucida Fax</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Candara</property>
 				<property name="Font.Style" vt="Set"/>
 				<property name="TabOrder" vt="Int8">1</property>
 				<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
@@ -2022,12 +2022,18 @@
 					<properties>
 						<property name="Left" vt="Int8">10</property>
 						<property name="Top" vt="Int16">146</property>
-						<property name="Width" vt="Int8">75</property>
+						<property name="Width" vt="Int8">100</property>
 						<property name="Height" vt="Int8">25</property>
 						<property name="Caption" vt="String">Search</property>
+						<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-17</property>
+						<property name="Font.Name" vt="String">Candara</property>
+						<property name="Font.Style" vt="Set"/>
+						<property name="ParentFont" vt="False">False</property>
 						<property name="TabOrder" vt="Int8">2</property>
 						<property name="Color" vt="Ident">clBtnFace</property>
-						<property name="CtrlStyle" vt="Int32">1342373888</property>
+						<property name="CtrlStyle" vt="Int32">1342409729</property>
 						<property name="CtrlExStyle" vt="Int8">0</property>
 						<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
 					</properties>
@@ -2057,9 +2063,15 @@
 					<properties>
 						<property name="Left" vt="Int8">10</property>
 						<property name="Top" vt="Int8">26</property>
-						<property name="Width" vt="Int8">70</property>
-						<property name="Height" vt="Int8">20</property>
+						<property name="Width" vt="Int8">87</property>
+						<property name="Height" vt="Int8">27</property>
 						<property name="Caption" vt="String">Lastname:</property>
+						<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-19</property>
+						<property name="Font.Name" vt="String">Candara</property>
+						<property name="Font.Style" vt="Set"/>
+						<property name="ParentFont" vt="False">False</property>
 						<property name="TabOrder" vt="Int8">3</property>
 						<property name="HaveVariable" vt="False">False</property>
 						<property name="CtrlStyle" vt="Int32">1342308608</property>
@@ -2072,9 +2084,15 @@
 					<properties>
 						<property name="Left" vt="Int8">10</property>
 						<property name="Top" vt="Int8">85</property>
-						<property name="Width" vt="Int8">73</property>
-						<property name="Height" vt="Int8">20</property>
+						<property name="Width" vt="Int8">89</property>
+						<property name="Height" vt="Int8">27</property>
 						<property name="Caption" vt="String">Firstname:</property>
+						<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-19</property>
+						<property name="Font.Name" vt="String">Candara</property>
+						<property name="Font.Style" vt="Set"/>
+						<property name="ParentFont" vt="False">False</property>
 						<property name="TabOrder" vt="Int8">4</property>
 						<property name="HaveVariable" vt="False">False</property>
 						<property name="CtrlStyle" vt="Int32">1342308608</property>
@@ -2088,7 +2106,7 @@
 		<object type="TAList" name="List1">
 			<properties>
 				<property name="Left" vt="Int8">8</property>
-				<property name="Top" vt="Int16">328</property>
+				<property name="Top" vt="Int16">344</property>
 				<property name="Width" vt="Int16">537</property>
 				<property name="Height" vt="Int16">289</property>
 				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
@@ -2110,14 +2128,14 @@
 				<property name="Left" vt="Int8">8</property>
 				<property name="Top" vt="Int8">8</property>
 				<property name="Width" vt="Int16">538</property>
-				<property name="Height" vt="Int8">97</property>
+				<property name="Height" vt="Int8">105</property>
 				<property name="CtrlStyle" vt="Int32">1342308359</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
 				<property name="Caption" vt="String">Type a search path below or use the location button</property>
 				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
 				<property name="Font.Color" vt="Ident">clWindowText</property>
-				<property name="Font.Height" vt="Int8">-13</property>
-				<property name="Font.Name" vt="String">Lucida Fax</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Candara</property>
 				<property name="Font.Style" vt="Set"/>
 				<property name="TabOrder" vt="Int8">0</property>
 				<property name="Resizing" vt="Set">DockLeft, DockRight, DockTop, DockHeight</property>
@@ -2146,12 +2164,18 @@
 					<properties>
 						<property name="Left" vt="Int8">8</property>
 						<property name="Top" vt="Int8">64</property>
-						<property name="Width" vt="Int8">75</property>
+						<property name="Width" vt="Int8">100</property>
 						<property name="Height" vt="Int8">25</property>
 						<property name="Caption" vt="String">Location</property>
+						<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
+						<property name="Font.Color" vt="Ident">clWindowText</property>
+						<property name="Font.Height" vt="Int8">-17</property>
+						<property name="Font.Name" vt="String">Candara</property>
+						<property name="Font.Style" vt="Set"/>
+						<property name="ParentFont" vt="False">False</property>
 						<property name="TabOrder" vt="Int8">1</property>
 						<property name="Color" vt="Ident">clBtnFace</property>
-						<property name="CtrlStyle" vt="Int32">1342373888</property>
+						<property name="CtrlStyle" vt="Int32">1342409729</property>
 						<property name="CtrlExStyle" vt="Int8">0</property>
 						<property name="Resizing" vt="Set">DockLeft, DockTop, DockWidth, DockHeight</property>
 					</properties>
@@ -2162,14 +2186,14 @@
 		<object type="TALabel" name="results_lbl">
 			<properties>
 				<property name="Left" vt="Int8">8</property>
-				<property name="Top" vt="Int16">300</property>
-				<property name="Width" vt="Int16">210</property>
-				<property name="Height" vt="Int8">20</property>
+				<property name="Top" vt="Int16">316</property>
+				<property name="Width" vt="Int16">222</property>
+				<property name="Height" vt="Int8">23</property>
 				<property name="Caption" vt="String">Search results will appear below</property>
 				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
 				<property name="Font.Color" vt="Ident">clWindowText</property>
-				<property name="Font.Height" vt="Int8">-13</property>
-				<property name="Font.Name" vt="String">Lucida Fax</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Candara</property>
 				<property name="Font.Style" vt="Set"/>
 				<property name="ParentFont" vt="False">False</property>
 				<property name="TabOrder" vt="Int8">3</property>
@@ -2183,13 +2207,19 @@
 		<object type="TAButton" name="copy_btn">
 			<properties>
 				<property name="Left" vt="Int16">384</property>
-				<property name="Top" vt="Int16">625</property>
+				<property name="Top" vt="Int16">641</property>
 				<property name="Width" vt="Int8">75</property>
 				<property name="Height" vt="Int8">25</property>
 				<property name="Caption" vt="String">Copy</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Candara</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
 				<property name="TabOrder" vt="Int8">4</property>
 				<property name="Color" vt="Ident">clBtnFace</property>
-				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlStyle" vt="Int32">1342409729</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
 				<property name="Resizing" vt="Set">DockRight, DockBottom, DockWidth, DockHeight</property>
 			</properties>
@@ -2197,15 +2227,15 @@
 		</object>
 		<object type="TALabel" name="copy_lbl">
 			<properties>
-				<property name="Left" vt="Int16">176</property>
-				<property name="Top" vt="Int16">628</property>
-				<property name="Width" vt="Int16">207</property>
-				<property name="Height" vt="Int8">20</property>
+				<property name="Left" vt="Int16">168</property>
+				<property name="Top" vt="Int16">644</property>
+				<property name="Width" vt="Int16">213</property>
+				<property name="Height" vt="Int8">23</property>
 				<property name="Caption" vt="String">Copy the files to a new location</property>
 				<property name="Font.Charset" vt="Ident">ANSI_CHARSET</property>
 				<property name="Font.Color" vt="Ident">clWindowText</property>
-				<property name="Font.Height" vt="Int8">-13</property>
-				<property name="Font.Name" vt="String">Lucida Fax</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Candara</property>
 				<property name="Font.Style" vt="Set"/>
 				<property name="ParentFont" vt="False">False</property>
 				<property name="TabOrder" vt="Int8">5</property>
@@ -2219,13 +2249,19 @@
 		<object type="TAButton" name="clear_btn">
 			<properties>
 				<property name="Left" vt="Int16">469</property>
-				<property name="Top" vt="Int16">625</property>
+				<property name="Top" vt="Int16">641</property>
 				<property name="Width" vt="Int8">75</property>
 				<property name="Height" vt="Int8">25</property>
 				<property name="Caption" vt="String">Clear</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-16</property>
+				<property name="Font.Name" vt="String">Candara</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
 				<property name="TabOrder" vt="Int8">6</property>
 				<property name="Color" vt="Ident">clBtnFace</property>
-				<property name="CtrlStyle" vt="Int32">1342373888</property>
+				<property name="CtrlStyle" vt="Int32">1342377729</property>
 				<property name="CtrlExStyle" vt="Int8">0</property>
 				<property name="Resizing" vt="Set">DockRight, DockBottom, DockWidth, DockHeight</property>
 			</properties>
