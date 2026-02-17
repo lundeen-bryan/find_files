@@ -6,10 +6,10 @@
     #include <StaticConstants.au3>       ; For static text controls
     #include <WindowsConstants.au3>      ; For window-related constants
     #include <MsgBoxConstants.au3>       ; (Optional) For MsgBox constants if using message boxes
-    #include "search_reports_ui.au3"
-    #include "search.au3" ; Assuming the SearchFilesByPattern function is in this module
     #include <Debug.au3>
     #include <GuiListView.au3>
+    #include "search_reports_ui.au3"
+    #include "search.au3" ; Assuming the SearchFilesByPattern function is in this module
 #EndRegion
 
 #Region ;~ Opt Settings
